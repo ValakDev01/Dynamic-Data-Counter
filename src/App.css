@@ -1,38 +1,44 @@
+/* App.css */
+
+/* Style for the whole App container */
 .App {
-  text-align: center;
+	font-family: Arial, sans-serif;
+	text-align: center;
+	background-color: #f2f2f2; /* Light gray background */
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Style for the Counter component */
+.Counter {
+	margin-top: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Style for the buttons */
+button {
+	padding: 8px 16px;
+	margin: 0 5px;
+	cursor: pointer;
+	border: none;
+	background-color: #4caf50; /* Green */
+	color: white;
+	border-radius: 5px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+button:hover {
+	background-color: #45a049; /* Darker green */
 }
 
-.App-link {
-  color: #61dafb;
+/* Style for the spans */
+span {
+	margin: 0 10px;
+	font-size: 16px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Style for the paragraph */
+p {
+	margin-top: 20px;
+	font-size: 18px;
+	line-height: 1.5;
 }
